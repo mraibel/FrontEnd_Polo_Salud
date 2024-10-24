@@ -6,11 +6,11 @@ const Footer = () => {
     return (
       <footer className="bg-gray-800 text-white p-4 mt-auto"> {/* mt-auto empuja el footer hacia abajo */}
         <div className="container mx-auto text-center">
-          <p>© 2024 Tu Empresa. Todos los derechos reservados.</p>
+          <p>© 2024 Polo de salud. Todos los derechos reservados.</p>
           <div className="flex justify-center space-x-4">
-            <a href="/about" className="hover:underline">About</a>
-            <a href="/contact" className="hover:underline">Contact</a>
-            <a href="/team" className="hover:underline">Team</a>
+            <a href="/acerca" className="hover:underline">Acerca</a>
+            <a href="/contacto" className="hover:underline">Contacto</a>
+            <a href="/equipo" className="hover:underline">Equipo</a>
           </div>
         </div>
       </footer>

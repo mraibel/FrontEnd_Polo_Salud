@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-
+import Image from 'next/image';
 export default function HeaderName() {
     const [underlineStyle, setUnderlineStyle] = useState({ left: 0, width: 0 });
 
@@ -22,9 +22,10 @@ export default function HeaderName() {
             <div className="flex sm:px-6 h-header sm:items-center sm:gap-8 relative">
                 <h2 className="flex-1">
                     <a href="/" className="flex items-center gap-2 sm:gap-6">
+                    <Image src="/logopolo.png" alt="Logo" width={50} height={50} />
                         <div>
                             <span className="block font-site">PoloDeSalud</span>
-                            <span className="text-xs">Health for All</span>
+                            <span className="text-xs">Sauld para todos</span>
                         </div>
                     </a>
                 </h2>
@@ -48,7 +49,7 @@ export default function HeaderName() {
                             ))}
                             {/* Barra deslizante */}
                             <div
-                                className="absolute h-0.5 bg-blue-500 transition-all duration-300"
+                                className="absolute h-0.5 bg-blue-900 transition-all duration-300"
                                 style={{
                                     left: `${underlineStyle.left}px`,
                                     width: `${underlineStyle.width}px`,
