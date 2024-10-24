@@ -24,15 +24,15 @@ export default function HeaderName() {
                     <a href="/" className="flex items-center gap-2 sm:gap-6">
                     <Image src="/logopolo.png" alt="Logo" width={50} height={50} />
                         <div>
-                            <span className="block font-site">PoloDeSalud</span>
-                            <span className="text-xs">Sauld para todos</span>
+                            <span className="block font-site font-bold text-2xl sm:text-1xl text-blue-600">Polo De Salud</span>
+                            <span className="text-x font-bold text-orange-600">Salud para todos</span>
                         </div>
                     </a>
                 </h2>
                 <div>
                     <nav className="relative">
-                        <ul className="flex flex-col items-center md:flex-row gap-10 md:gap-4 min-[900px]:gap-5 lg:gap-12 justify-end text-sm md:text-[15px] leading-[22px] relative">
-                            {['Inicio', 'Sobre Nosotros', 'Projectos', 'Noticias', 'Equipo', 'Contacto'].map((item, index) => (
+                        <ul className="flex flex-col items-center md:flex-row gap-10 md:gap-4 min-[900px]:gap-5 lg:gap-8 justify-end text-sm md:text-[16px] leading-[22px] relative">
+                            {['Inicio', 'Sobre Nosotros', 'Proyectos', 'Noticias', 'Equipo', 'Contacto'].map((item, index) => (
                                 <li
                                     key={index}
                                     className="relative"
@@ -54,8 +54,8 @@ export default function HeaderName() {
                                     left: `${underlineStyle.left}px`,
                                     width: `${underlineStyle.width}px`,
                                     bottom: '-3px', // Ajuste para la posición justo debajo del texto
-                                    transition: 'left 0.3s ease-in-out, width 0.3s ease-in-out',
-                                }}
+                                    transition: 'left 0.5s ease-in-out, width 0.3s ease-in-out',
+                                }}c
                             />
                         </ul>
                     </nav>

@@ -14,7 +14,8 @@
     "next": "14.2.15",
     "polo_salud": "file:",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-clip-path": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "22.7.9",
