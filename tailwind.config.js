@@ -11,7 +11,13 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        jost: ['Jost']
+      },  
+      clipPath: {
+        'diagonal': 'polygon(30% 0, 100% 0, 100% 100%, 0 100%)',
+      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-clip-path'),],
 };
