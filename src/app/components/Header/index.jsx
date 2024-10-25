@@ -24,7 +24,7 @@ export default function HeaderName() {
                     <a href="/" className="flex items-center gap-2 sm:gap-6">
                     <Image src="/logopolo.png" alt="Logo" width={50} height={50} />
                         <div>
-                            <span className="block font-site font-bold text-2xl sm:text-1xl text-blue-600">Polo De Salud</span>
+                            <span className="block font-site font-bold text-2xl sm:text-1xl text-blue-800">Polo De Salud</span>
                             <span className="text-x font-bold text-orange-600">Salud para todos</span>
                         </div>
                     </a>
@@ -32,7 +32,7 @@ export default function HeaderName() {
                 <div>
                     <nav className="relative">
                         <ul className="flex flex-col items-center md:flex-row gap-10 md:gap-4 min-[900px]:gap-5 lg:gap-8 justify-end text-sm md:text-[16px] leading-[22px] relative">
-                            {['Inicio', 'Sobre Nosotros', 'Proyectos', 'Noticias', 'Equipo', 'Contacto'].map((item, index) => (
+                            {['Inicio', 'Sobre Nosotros', 'Proyectos', 'Noticias', 'Equipo', 'Contacto',"Iniciar Sesión"].map((item, index) => (
                                 <li
                                     key={index}
                                     className="relative"
@@ -61,6 +61,7 @@ export default function HeaderName() {
                     </nav>
                 </div>
             </div>
+            <div className="border-b border-gray-300 mb-0 mt-4" />
         </header>
     );
 }
