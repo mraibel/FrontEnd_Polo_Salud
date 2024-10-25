@@ -9,17 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@wix/sdk": "^1.14.1",
-    "flowbite-react": "^0.10.2",
     "next": "14.2.15",
-    "polo_salud": "file:",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-clip-path": "^1.0.0"
+    "react-hook-form": "^7.53.1"
   },
   "devDependencies": {
-    "@types/node": "22.7.9",
-    "@types/react": "18.3.12",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "postcss": "^8",

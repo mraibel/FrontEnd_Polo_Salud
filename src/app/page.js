@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { CarouselClient } from "./components/Carousel/Carousel";
 
 export default function Home() {
   return (
@@ -136,7 +135,6 @@ export default function Home() {
         </div>
       </div>
       </div>
-
       </main>
     </>
   );
